@@ -1,0 +1,12 @@
+{
+    "name": "topic_2",
+    "namespace": "AVROTest",
+    "type": "record",
+    "fields": [
+        {
+            "type": "string",
+            "name": "new_field_1",
+            "aliases": ["field_1"]
+        }
+    ]
+}

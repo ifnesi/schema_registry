@@ -1,0 +1,30 @@
+{
+    "name": "topic_1",
+    "namespace": "AVROTest",
+    "type": "record",
+    "fields": [
+        {
+            "type": "string",
+            "name": "new_field_1",
+            "aliases": ["field_1"]
+        },
+        {
+            "type": "string",
+            "name": "new_field_2",
+            "aliases": ["field_2"],
+            "default": "New Field #2 on schema version #4"
+        },
+        {
+            "type": "string",
+            "name": "new_field_3",
+            "aliases": ["field_3"],
+            "default": "New Field #3 on schema version #4"
+        },
+        {
+            "type": "string",
+            "name": "new_field_4",
+            "aliases": ["field_4"],
+            "default": "New Field #4 on schema version #4"
+        }
+    ]
+}

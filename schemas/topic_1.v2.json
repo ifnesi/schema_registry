@@ -1,0 +1,16 @@
+{
+    "name": "topic_1",
+    "namespace": "AVROTest",
+    "type": "record",
+    "fields": [
+        {
+            "type": "string",
+            "name": "field_1"
+        },
+        {
+            "type": "string",
+            "name": "field_2",
+            "default": "Field #2 on schema version #2"
+        }
+    ]
+}
